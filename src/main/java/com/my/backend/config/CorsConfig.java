@@ -14,7 +14,7 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
                         .allowedMethods("GET", "POST")
-                        .allowedOrigins("http://15.165.136.216")
+                        .allowedOrigins("http://lminji-front-app.s3-website.ap-northeast-2.amazonaws.com")
                         .allowCredentials(true);
             }
         };
